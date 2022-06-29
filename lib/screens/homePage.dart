@@ -9,7 +9,12 @@ class homePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to the 30 Days flutter challenge."),
+          child: Text(
+            "Welcome to the 30 Days flutter challenge.",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ),
       ),
       drawer: Drawer(),
